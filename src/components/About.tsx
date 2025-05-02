@@ -8,7 +8,7 @@ import Link from 'next/link';
 export default function About() {
   const controls = useAnimation();
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const isInView = useInView(ref, { once: true, amount: 0.1 });
   
   useEffect(() => {
     if (isInView) {
@@ -17,7 +17,7 @@ export default function About() {
   }, [controls, isInView]);
 
   return (
-    <section ref={ref} className="py-20 bg-gradient-to-b from-gray-900 to-black">
+    <section ref={ref} id="about-team" className="py-10 bg-gradient-to-b from-gray-900 to-black">
       <div className="container mx-auto px-4 md:px-6">
         <motion.div 
           initial="hidden"

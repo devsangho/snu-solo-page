@@ -42,8 +42,15 @@ export default function FireworkHero() {
     }
   }, []);
 
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about-team');
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
-    <section className="relative min-h-screen overflow-hidden flex items-center justify-center">
+    <section className="relative min-h-[80vh] overflow-hidden flex items-center justify-center">
       {/* Video background */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <video
@@ -89,7 +96,7 @@ export default function FireworkHero() {
           </div>
 
           {/* Scroll down arrow */}
-          <div className="mt-10 animate-bounce">
+          <div className="mt-10 animate-bounce cursor-pointer" onClick={scrollToAbout}>
             <svg
               width="40"
               height="40"
@@ -106,6 +113,7 @@ export default function FireworkHero() {
                 strokeLinejoin="round"
               />
             </svg>
+            <p className="text-white/70 text-sm mt-2">About Team</p>
           </div>
         </div>
       </div>

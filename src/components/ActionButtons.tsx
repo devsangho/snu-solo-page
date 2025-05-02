@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 export default function ActionButtons() {
   return (
-    <section className="py-16 bg-gradient-to-b from-black via-gray-900 to-black">
+    <section className="py-8 bg-gradient-to-b from-black via-gray-900 to-black">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
           <Link href="/about/history">
@@ -26,8 +26,8 @@ export default function ActionButtons() {
         </div>
         
         {/* Partner Organizations */}
-        <div className="mt-20">
-          <p className="text-sm uppercase tracking-widest text-blue-400 mb-12 font-semibold text-center">
+        <div className="mt-12">
+          <p className="text-sm uppercase tracking-widest text-blue-400 mb-8 font-semibold text-center">
             Partner Organizations
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center justify-items-center">
