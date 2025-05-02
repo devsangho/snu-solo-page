@@ -13,56 +13,30 @@ export interface NavItem {
 // 메뉴 아이템 정의
 const navItems: NavItem[] = [
   {
-    title: "About Team",
-    href: "/about",
-    children: [
-      {
-        title: "Team History",
-        href: "/about/history",
-        description: "Learn about our team's journey"
-      },
-      {
-        title: "Technology",
-        href: "/about/technology",
-        description: "Our solar car technology"
-      },
-      {
-        title: "Media",
-        href: "/about/media",
-        description: "Media coverage of SNU SOLO"
-      },
-      {
-        title: "Contact",
-        href: "/about/contact",
-        description: "Get in touch with our team"
-      }
-    ]
-  },
-  {
     title: "Team Members",
     href: "/members",
     children: [
       {
         title: "2025 Team",
         href: "/members/2025",
-        description: "Current team members"
+        description: "Current team members",
       },
       {
         title: "2024 Team",
         href: "/members/2024",
-        description: "Team members from 2024"
+        description: "Team members from 2024",
       },
       {
         title: "2023 Team",
         href: "/members/2023",
-        description: "Team members from 2023"
+        description: "Team members from 2023",
       },
       {
         title: "2022 Team",
         href: "/members/2022",
-        description: "Team members from 2022"
-      }
-    ]
+        description: "Team members from 2022",
+      },
+    ],
   },
   {
     title: "Gallery",
@@ -75,14 +49,14 @@ const navItems: NavItem[] = [
       {
         title: "All Partners",
         href: "/partners",
-        description: "View all our partners"
+        description: "View all our partners",
       },
       {
         title: "2025 BWSC Partners",
         href: "/partners/2025",
-        description: "Our partners for BWSC 2025"
-      }
-    ]
+        description: "Our partners for BWSC 2025",
+      },
+    ],
   },
   {
     title: "News",

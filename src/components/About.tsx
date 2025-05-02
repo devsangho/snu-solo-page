@@ -412,7 +412,7 @@ export default function About() {
                         Bridgestone World Solar Challenge 2025
                       </h3>
                       <p className="text-lg text-gray-300">
-                        Our team is dedicated to competing in the world's premier solar car race, traversing 3,000km across Australia from Darwin to Adelaide.
+                        Our team is dedicated to competing in the world&apos;s premier solar car race, traversing 3,000km across Australia from Darwin to Adelaide.
                       </p>
                     </div>
                   </div>
