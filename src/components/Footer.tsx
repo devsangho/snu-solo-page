@@ -68,23 +68,8 @@ export default function Footer() {
             <h3 className="font-medium text-lg mb-4 text-blue-300">Team Members</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/team/2025" className="text-gray-400 hover:text-blue-300 transition-colors">
+                <Link href="/members/2025" className="text-gray-400 hover:text-blue-300 transition-colors">
                   2025 Team
-                </Link>
-              </li>
-              <li>
-                <Link href="/team/2024" className="text-gray-400 hover:text-blue-300 transition-colors">
-                  2024 Team
-                </Link>
-              </li>
-              <li>
-                <Link href="/team/2023" className="text-gray-400 hover:text-blue-300 transition-colors">
-                  2023 Team
-                </Link>
-              </li>
-              <li>
-                <Link href="/team/2022" className="text-gray-400 hover:text-blue-300 transition-colors">
-                  2022 Team
                 </Link>
               </li>
             </ul>
