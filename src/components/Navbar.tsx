@@ -14,29 +14,7 @@ export interface NavItem {
 const navItems: NavItem[] = [
   {
     title: "Team Members",
-    href: "/members",
-    children: [
-      {
-        title: "2025 Team",
-        href: "/members/2025",
-        description: "Current team members",
-      },
-      {
-        title: "2024 Team",
-        href: "/members/2024",
-        description: "Team members from 2024",
-      },
-      {
-        title: "2023 Team",
-        href: "/members/2023",
-        description: "Team members from 2023",
-      },
-      {
-        title: "2022 Team",
-        href: "/members/2022",
-        description: "Team members from 2022",
-      },
-    ],
+    href: "/members/2025",
   },
   {
     title: "Gallery",
