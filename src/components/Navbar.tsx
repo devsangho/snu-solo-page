@@ -23,18 +23,6 @@ const navItems: NavItem[] = [
   {
     title: "Partners",
     href: "/partners",
-    children: [
-      {
-        title: "All Partners",
-        href: "/partners",
-        description: "View all our partners",
-      },
-      {
-        title: "2025 BWSC Partners",
-        href: "/partners/2025",
-        description: "Our partners for BWSC 2025",
-      },
-    ],
   },
   {
     title: "News",
